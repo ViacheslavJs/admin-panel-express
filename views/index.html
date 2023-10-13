@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/fontawesome/all-custom.css">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+  <title>Accounts list</title>
+</head>
+<body>
+  
+  <h1>RPG admin panel</h1>
+  <h2>Accounts list:</h2>
+  <table>    
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Title</th>
+        <th>Race</th>
+        <th>Profession</th>
+        <th>Level</th>
+        <th>Birthday</th>
+        <th>Banned</th>
+        <th>Delete</th>
+      </tr>
+    </thead>
+    <tbody id="table-body">
+      <!-- Сюда будут добавляться данные с сервера -->
+    </tbody>
+  </table>
+    
+  <form id="addPlayerForm" class="form">
+  <h3>Create new account:</h3>
+  <div class="form__item">   
+    <label for="id" class="form__label">ID:</label>
+    <input class="form__input" type="number" id="id" placeholder="ID">
+  </div>
+    
+  <div class="form__item">     
+    <label for="name" class="form__label">Name:</label>
+    <input class="form__input" type="text" id="name" placeholder="Name">
+  </div>  
+    
+  <div class="form__item">     
+    <label for="title" class="form__label">Title:</label>
+    <input class="form__input" type="text" id="title" placeholder="Title">
+  </div>  
+    
+  <div class="form__item">     
+    <label for="race" class="form__label">Race:</label>
+    <input class="form__input" type="text" id="race" placeholder="Race">
+  </div>  
+    
+  <div class="form__item">     
+    <label for="profession" class="form__label">Profession:</label>
+    <input class="form__input" type="text" id="profession" placeholder="Profession">
+  </div>  
+    
+  <div class="form__item">     
+    <label for="level" class="form__label">Level:</label>
+    <input class="form__input" type="number" id="level" placeholder="Level">
+  </div>  
+    
+  <div class="form__item form__item--birthday">     
+    <label for="birthday" class="form__label form__label--birthday">Birthday:</label>
+    <input class="form__input" type="date" id="birthday">
+  </div>  
+  
+  <div class="banned">  
+    <span class="banned-span">Banned:</span>
+    <select id="banned" class="select" name="select">    
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+    </select>
+  </div>
+    <button class="button-create" type="submit">Create</button>
+    
+  </form>
+    
+  <script src="/javascripts/requests.js"></script>
+  
+</body>
+</html>
+

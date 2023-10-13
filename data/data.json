@@ -1,0 +1,82 @@
+[
+  {
+    "Id": "1",
+    "Name": "Michael Johnson",
+    "Title": "Developer",
+    "Race": "Dwarf",
+    "Profession": "Software Engineer",
+    "Level": 40,
+    "Birthday": "1985-09-21",
+    "Banned": "No"
+  },
+  {
+    "Id": "2",
+    "Name": "Emily White",
+    "Title": "Manager",
+    "Race": "Human",
+    "Profession": "Project Manager",
+    "Level": 45,
+    "Birthday": "1982-03-12",
+    "Banned": "No"
+  },
+  {
+    "Id": "3",
+    "Name": "Aria Greenleaf",
+    "Title": "Artist",
+    "Race": "Elf",
+    "Profession": "Illustrator",
+    "Level": 35,
+    "Birthday": "1995-07-10",
+    "Banned": "No"
+  },
+  {
+    "Id": "4",
+    "Name": "Daniel Brown",
+    "Title": "Engineer",
+    "Race": "Human",
+    "Profession": "Mechanical Engineer",
+    "Level": 55,
+    "Birthday": "1975-11-28",
+    "Banned": "Yes"
+  },
+  {
+    "Id": "5",
+    "Name": "Alice",
+    "Title": "Vs",
+    "Race": "Uk",
+    "Profession": "Dev",
+    "Level": 5,
+    "Birthday": "1985-10-23",
+    "Banned": "No"
+  },
+  {
+    "Id": "6",
+    "Name": "Maria",
+    "Title": "Sd",
+    "Race": "Fgl",
+    "Profession": "Web-developer",
+    "Level": 3,
+    "Birthday": "2023-09-07",
+    "Banned": "Yes"
+  },
+  {
+    "Id": "7",
+    "Name": "Anna",
+    "Title": "RBVC",
+    "Race": "YHKL",
+    "Profession": "QA",
+    "Level": "34",
+    "Birthday": "1996-09-07",
+    "Banned": "Yes"
+  },
+  {
+    "Id": "8",
+    "Name": "Александр",
+    "Title": "WEF5",
+    "Race": "QWE23",
+    "Profession": "Учёный",
+    "Level": "456",
+    "Birthday": "1970-09-07",
+    "Banned": "Yes"
+  }
+]
