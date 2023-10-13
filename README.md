@@ -8,9 +8,9 @@ This application is a simple user control panel.
  - Only adding/removing users has been implemented.
  
 Next task:
- `TODO` - add editing for each user;
- `TODO` - add data entry validation
- `TODO` - confirmation when deleting a user
+ - `TODO` - add editing for each user;
+ - `TODO` - add data entry validation
+ - `TODO` - confirmation when deleting a user
 
 ## Beginning of work: 
 
